@@ -4,10 +4,13 @@
   background-color: #8AC542;
   padding: 16px 16px;
   font-weight: bold;
+}
+
+.header a {
   color: white;
 }
 
-.header_loginBtn {
+.header a.header_loginBtn {
   background-color: #f1f5f7;
   height: 40px;
   border-radius: 8px;
@@ -34,7 +37,6 @@
   font-size: 22px;
 }
 
-1
 .header_avatar {
   width: 40px;
   height: 40px;
@@ -135,8 +137,16 @@
   position: relative;
 }
 
+.article h2 {
+  font-size: 16px;
+}
+
 .article_title {
   font-size: 22px;
+}
+
+.article_comment {
+  padding: 12px 0;
 }
 
 .article_detail {
@@ -181,6 +191,16 @@
   width: 100%;
   text-align: center;
   color: white;
+  padding: 16px 0;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background-color: white;
+  border: solid 1px #8AC542;
+  width: 100%;
+  text-align: center;
+  color: #8AC542;
   padding: 16px 0;
   font-weight: bold;
 }

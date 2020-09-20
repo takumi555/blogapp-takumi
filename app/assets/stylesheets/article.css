@@ -6,8 +6,16 @@
   position: relative;
 }
 
+.article h2 {
+  font-size: 16px;
+}
+
 .article_title {
   font-size: 22px;
+}
+
+.article_comment {
+  padding: 12px 0;
 }
 
 .article_detail {
