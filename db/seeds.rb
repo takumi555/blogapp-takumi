@@ -7,8 +7,18 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 #ダミーデータを作るファイル
 
-10.times do
-  Article.create(
+john = User.create!(email: 'john@gmail.com', password: 'password')
+emily = User.create!(email: 'emily@gmail.com', password: 'password')
+
+5.times do
+  john.articles.create!(
+    title: Faker::Lorem.sentence(word_count: 5),
+    content: Faker::Lorem.sentence(word_count: 100)
+  )
+end
+
+5.times do
+  emily.articles.create!(
     title: Faker::Lorem.sentence(word_count: 5),
     content: Faker::Lorem.sentence(word_count: 100)
   )
