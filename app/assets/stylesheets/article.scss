@@ -1,4 +1,3 @@
-@import './variables';
 $heart-size: 32px;
 $avatar-size: 32px;
 $container-padding: 16px;
@@ -27,8 +26,7 @@ $container-padding: 16px;
     }
   }
 
-
-  h2{
+  h2 {
     font-size: 16px;
   }
 
@@ -42,7 +40,6 @@ $container-padding: 16px;
 
   &_detail {
     padding-top: 10px;
-    cursor: pointer;
     display: flex;
     font-size: 12px;
     position: relative;
@@ -54,11 +51,11 @@ $container-padding: 16px;
       border-radius: 100%;
       margin-right: 16px;
     }
+
     &_actions {
       right: 0px;
       position: absolute;
     }
-
   }
 
   &_content {
