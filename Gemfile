@@ -32,7 +32,7 @@ gem 'aws-sdk-s3', require: false
 gem 'sidekiq'
 gem 'sprockets', '~> 3.7.2'
 gem 'active_decorator'
-
+gem 'active_model_serializers'
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
 
