@@ -8,5 +8,6 @@ namespace :notification do
     else
       puts '送信できませんでした。'
     end
+
   end
 end
